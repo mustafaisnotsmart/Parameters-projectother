@@ -1,7 +1,7 @@
 def main():
-    def cakemath(numberofcakes):
+    def cakemath(numberofcakes, price                                            ):
         print("youre here")
-        moneymoneymoneymoneymoneymoneymoneymoneymoneymoneymoneymoneymoneymoneymoneymoney = int(numberofcakes) * 5
+        moneymoneymoneymoneymoneymoneymoneymoneymoneymoneymoneymoneymoneymoneymoneymoney = int(numberofcakes) * int(price)
         print(f"Your total cost for {numberofcakes} amount of cakes is {moneymoneymoneymoneymoneymoneymoneymoneymoneymoneymoneymoneymoneymoneymoneymoney}")
     otherinput = input("how many cakes do you want?\n")
     cakemath(otherinput)
@@ -13,4 +13,4 @@ while True:
     if theinput == "yes":
         main()
     else:
-        print("no")
+        print("bye")
